@@ -1,0 +1,11 @@
+.final-product-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.final-product-container p{
+    font-size: xx-large;
+}
