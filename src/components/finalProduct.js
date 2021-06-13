@@ -35,7 +35,7 @@ const FinalProduct=()=>{
         }else{
             setFinalProduct(fullChair);
         }
-    }); 
+    },[dropProducts,data.length]); 
     return(
         <div className="final-product-container">
             <p>Final Product </p>

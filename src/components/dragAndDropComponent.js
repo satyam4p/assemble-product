@@ -4,14 +4,11 @@ import { Link } from 'react-router-dom';
 import '../styles/dragDrop.css'
 const DragAndDrop=()=>{
     const {data, products, dropProducts, setDropProducts}=useContext(productContext);
-    console.log("products:: ",products);
-    console.log("data:: ",data);
     const handleDragover=(e)=>{
         e.preventDefault();
     }
     const handleDragStart=(e,id)=>{
         e.dataTransfer.setData("id",id);
-        console.log(id);
     }
     const handleDrop=(e)=>{
         const droppedProducts = [...dropProducts];

@@ -1,4 +1,4 @@
-import React,{ useState, useContext } from 'react';
+import React,{ useContext } from 'react';
 import chairPart1 from '../media/assemble/ChairPart1.jpg';
 import charPart2 from '../media/assemble/charPart2.jpg';
 import charLeg1 from '../media/assemble/charLeg1.jpg';
