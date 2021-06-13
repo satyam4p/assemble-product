@@ -3,7 +3,7 @@ import { productContext} from '../productContext/context';
 import { Link } from 'react-router-dom';
 import '../styles/dragDrop.css'
 const DragAndDrop=()=>{
-    const {data, products, dropProducts, setDropProducts}=useContext(productContext);
+    const {products, dropProducts, setDropProducts}=useContext(productContext);
     const handleDragover=(e)=>{
         e.preventDefault();
     }
