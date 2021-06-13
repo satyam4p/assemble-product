@@ -14,6 +14,7 @@ const DescriptionComp=()=>{
         </div>
         <div className="details">
         <p className="product-description-p">
+        <span style={{fontSize:"x-large"}}>Product Description</span><br/>
             Lay chair is the result of searching for an alternative way of an assemblable seating solution that aimed to improve sustainable 
             values starting from its reduced volume for transport up to its assembly. The main attention is given to the backrest of the chair
             and to a unidirectional assembly of parts starting from the backrest. The chair is made by layering a seat that fits perfectly
